@@ -19,8 +19,8 @@ public class Player : MonoBehaviour
         transform.forward = Vector3.Slerp(transform.forward,moveDir, Time.deltaTime * rotationSpeed);
     }
 
-    public bool IsWalking() 
+    public bool IsWalking()
     {
-        return isWalking; 
+        return isWalking;
     }
 }
