@@ -49,7 +49,7 @@ public class Player : MonoBehaviour
 
     public bool IsWalking()
     {
-        return isWalking; 
+        return isWalking;
     }
 
     private void handleInteractions() 
