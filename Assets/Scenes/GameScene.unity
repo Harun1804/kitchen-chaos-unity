@@ -363,6 +363,18 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &368012892 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3906489613925874100, guid: ebc619432cbea144f9c5aebcbfa0e5d5,
+    type: 3}
+  m_PrefabInstance: {fileID: 170926449}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ef7f3f9b9703e2409a3824ff4d33690, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -1035,6 +1047,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3906489613925874100, guid: ebc619432cbea144f9c5aebcbfa0e5d5,
         type: 3}
+      propertyPath: testing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3906489613925874100, guid: ebc619432cbea144f9c5aebcbfa0e5d5,
+        type: 3}
       propertyPath: tomatoPrefab
       value: 
       objectReference: {fileID: 6087304305367830945, guid: 7133a985925b9b4448787c59e05c6955,
@@ -1045,6 +1062,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 5792103c7adee9d49b14a69751624e6a,
         type: 2}
+    - target: {fileID: 3906489613925874100, guid: ebc619432cbea144f9c5aebcbfa0e5d5,
+        type: 3}
+      propertyPath: secondClearCounter
+      value: 
+      objectReference: {fileID: 368012892}
     - target: {fileID: 6265742016183044852, guid: ebc619432cbea144f9c5aebcbfa0e5d5,
         type: 3}
       propertyPath: m_LocalPosition.x
