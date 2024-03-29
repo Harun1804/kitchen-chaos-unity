@@ -16,7 +16,7 @@ public class CuttingCounter : BaseCounter
                     player.GetKitchenObject().SetKitchenObjectParent(this);
                 }
             } else {
-                // player is not carrying a kitchen object 
+                // player is not carrying a kitchen object
             }
         } else {
             // There is a kitchen object on the counter
