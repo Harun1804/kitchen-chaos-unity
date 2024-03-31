@@ -18,7 +18,7 @@ public class Player : MonoBehaviour, IKitchenObjectParent
     [SerializeField] private LayerMask countersLayerMask;
     [SerializeField] private Transform kitchenObjectHoldPoint;
 
-    private bool isWalking;
+    private bool isWalking; 
     private Vector3 lastInteractDir; 
     private BaseCounter selectedCounter;
     private KitchenObject kitchenObject;
