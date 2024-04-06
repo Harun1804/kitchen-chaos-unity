@@ -26,7 +26,7 @@ public class Player : MonoBehaviour, IKitchenObjectParent
     public void Awake()
     {
         if (Instance != null) {
-            Debug.LogError("There is more than one Player instance");
+            Debug.LogError("There is more than one Player instance"); 
         }
         Instance = this;
     }
