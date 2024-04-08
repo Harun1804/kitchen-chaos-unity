@@ -19,7 +19,7 @@ public class BaseCounter : MonoBehaviour, IKitchenObjectParent
 
     public Transform GetKitchenObjectFollowTransform()
     {
-        return counterTopPoint; 
+        return counterTopPoint;
     }
 
     public void SetKitchenObject(KitchenObject kitchenObject)
