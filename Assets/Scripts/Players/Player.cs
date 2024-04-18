@@ -16,7 +16,7 @@ public class Player : MonoBehaviour, IKitchenObjectParent
     [SerializeField] private float moveSpeed = 7f;
     [SerializeField] private GameInput gameInput;
     [SerializeField] private LayerMask countersLayerMask;
-    [SerializeField] private Transform kitchenObjectHoldPoint;
+    [SerializeField] private Transform kitchenObjectHoldPoint; 
 
     private bool isWalking;
     private Vector3 lastInteractDir;
