@@ -11,7 +11,7 @@ public class PlatesCounter : BaseCounter
     [SerializeField] private KitchenObjectSO plateKitchenObjectSO;
 
     private float spawnPlateTimer;
-    private float spawnPlateTimerMax = 4f;
+    private float spawnPlateTimerMax = 3f;
     private int platesSpawnedAmount;
     private int platesSpawnedAmountMax = 4;
 
