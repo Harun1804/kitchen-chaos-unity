@@ -60,8 +60,11 @@ public class Player : MonoBehaviour, IKitchenObjectParent
 
     private void Update()
     {
-        handleMovement();
-        handleInteractions();
+        if (KitchenGameManager.Instance.IsGamePlaying())
+        {            
+            handleMovement();
+            handleInteractions();
+        }
     }
 
     public bool IsWalking()
